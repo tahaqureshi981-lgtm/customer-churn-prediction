@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import plotly.graph_objects as go
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://web-production-0624.up.railway.app"
 
 st.set_page_config(
     page_title="Churn Risk Analyzer",
